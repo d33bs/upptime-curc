@@ -1,17 +1,21 @@
 # CU Research Computing Status
 
-This repository uses [Upptime](https://upptime.js.org) to monitor uptime and response times for CU Research Computing resources and partner services.
+This repository uses [Upptime](https://upptime.js.org) to monitor uptime and response times for public CU Research Computing and partner web pages, plus Alpine login-node SSH port reachability (not authentication).
 
 Live status page: `https://d33bs.github.io/upptime-curc/`
 
-## Monitored resources
+## Monitored public webpages
 
-- CURC Website
 - CURC Docs
-- Alpine (CURC page)
-- Globus
-- ACCESS
-- XSEDE redirect site
+- Globus website
+- ACCESS website
+- Alpine login node SSH port (TCP reachability)
+
+## Monitored technical endpoints
+
+- Globus Transfer API endpoint
+- ACCESS Registry endpoint
+- Alpine login node SSH port (TCP reachability)
 
 ## How it works
 

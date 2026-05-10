@@ -2,24 +2,26 @@ owner: d33bs
 repo: upptime-curc
 
 sites:
-  - name: CURC Website
-    url: https://www.colorado.edu/rc
-  - name: CURC Docs
+  - name: CURC Docs (Public Webpage)
     url: https://curc.readthedocs.io/en/latest/
-  - name: Alpine (CURC Page)
-    url: https://www.colorado.edu/rc/alpine
-  - name: Globus
+  - name: Globus Website (Public Webpage)
     url: https://www.globus.org
-  - name: ACCESS
+  - name: Globus Transfer API (Technical Endpoint)
+    url: https://transfer.api.globus.org
+  - name: ACCESS Website (Public Webpage)
     url: https://access-ci.org
-  - name: XSEDE Redirect
-    url: https://www.xsede.org
+  - name: ACCESS Registry (Technical Endpoint)
+    url: https://registry.access-ci.org/registry/
+  - name: Alpine Login Node SSH (TCP Reachability)
+    check: tcp-ping
+    url: login.rc.colorado.edu
+    port: 22
 
 status-website:
   baseUrl: /upptime-curc
   name: CU Research Computing Status
-  introTitle: "CU Research Computing Service Status"
-  introMessage: "Automated uptime and response-time monitoring for key CU Research Computing resources."
+  introTitle: "CU Research Computing Public Webpage Status"
+  introMessage: "Automated uptime and response-time monitoring for public webpages, plus Alpine login-node SSH port reachability (not authentication)."
   navbar:
     - title: Status
       href: /
