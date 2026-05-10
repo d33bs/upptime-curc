@@ -2,26 +2,34 @@ owner: d33bs
 repo: upptime-curc
 
 sites:
-  - name: CURC Docs (Public Webpage)
-    url: https://curc.readthedocs.io/en/latest/
-  - name: Globus Website (Public Webpage)
-    url: https://www.globus.org
-  - name: Globus Transfer API (Technical Endpoint)
-    url: https://transfer.api.globus.org
-  - name: ACCESS Website (Public Webpage)
-    url: https://access-ci.org
-  - name: ACCESS Registry (Technical Endpoint)
-    url: https://registry.access-ci.org/registry/
   - name: Alpine Login Node SSH (TCP Reachability)
     check: tcp-ping
     url: login.rc.colorado.edu
     port: 22
+  - name: CURC Open OnDemand HTTPS (TCP Reachability)
+    check: tcp-ping
+    url: ondemand.rc.colorado.edu
+    port: 443
+  - name: CURC Data Transfer Node SSH (TCP Reachability)
+    check: tcp-ping
+    url: dtn.rc.colorado.edu
+    port: 22
+  - name: CURC Docs (Public Webpage)
+    url: https://curc.readthedocs.io/en/latest/
+  - name: Globus Transfer API (Technical Endpoint)
+    url: https://transfer.api.globus.org
+  - name: ACCESS Registry (Technical Endpoint)
+    url: https://registry.access-ci.org/registry/
+  - name: Globus Website (Public Webpage)
+    url: https://www.globus.org
+  - name: ACCESS Website (Public Webpage)
+    url: https://access-ci.org
 
 status-website:
   baseUrl: /upptime-curc
   name: CU Research Computing Status
-  introTitle: "CU Research Computing Public Webpage Status"
-  introMessage: "Automated uptime and response-time monitoring for public webpages, plus Alpine login-node SSH port reachability (not authentication)."
+  introTitle: "CU Research Computing Access Status"
+  introMessage: "Automated monitoring for practical user access points (login, Open OnDemand, data transfer), plus CURC docs and partner technical endpoints."
   navbar:
     - title: Status
       href: /

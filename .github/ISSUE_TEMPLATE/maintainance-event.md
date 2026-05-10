@@ -9,7 +9,7 @@ assignees: ""
 <!--
 start: 2026-01-01T00:00:00.000Z
 end: 2026-01-01T01:00:00.000Z
-expectedDown: curc-docs-public-webpage, globus-website-public-webpage, globus-transfer-api-technical-endpoint, access-website-public-webpage, access-registry-technical-endpoint, alpine-login-node-ssh-tcp-reachability
+expectedDown: alpine-login-node-ssh-tcp-reachability, curc-open-ondemand-https-tcp-reachability, curc-data-transfer-node-ssh-tcp-reachability, curc-docs-public-webpage, globus-transfer-api-technical-endpoint, access-registry-technical-endpoint
 -->
 
 **Additional context**
