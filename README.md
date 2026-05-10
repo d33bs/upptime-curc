@@ -1,32 +1,5 @@
 # CU Research Computing Status
 
-This repository uses [Upptime](https://upptime.js.org) to monitor uptime and response times for public CU Research Computing and partner web pages, plus Alpine login-node SSH port reachability (not authentication).
-
-Live status page: `https://d33bs.github.io/upptime-curc/`
-
-## Monitored public webpages
-
-- CURC Docs
-- Globus website
-- ACCESS website
-- Alpine login node SSH port (TCP reachability)
-
-## Monitored technical endpoints
-
-- Globus Transfer API endpoint
-- ACCESS Registry endpoint
-- Alpine login node SSH port (TCP reachability)
-
-## How it works
-
-- Checks run on a schedule via GitHub Actions
-- Downtime opens/closes incidents as GitHub issues
-- Historical uptime and response-time data are committed in this repo
-
-## GitHub setup
-
-See [GITHUB_SETUP.md](GITHUB_SETUP.md) for required repository settings and first-run bootstrap steps.
-
 ## Current status
 
 <!--start: status pages-->
@@ -45,3 +18,42 @@ See [GITHUB_SETUP.md](GITHUB_SETUP.md) for required repository settings and firs
 | <img alt="" src="https://icons.duckduckgo.com/ip3/access-ci.org.ico" height="13"> [ACCESS Website (Public Webpage)](https://access-ci.org) | 🟩 Up | [access-website-public-webpage.yml](https://github.com/d33bs/upptime-curc/commits/HEAD/history/access-website-public-webpage.yml) | <details><summary><img alt="Response time graph" src="./graphs/access-website-public-webpage/response-time-week.png" height="20"> 797ms</summary><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="Response time 797" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fresponse-time.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="24-hour response time 797" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fresponse-time-day.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="7-day response time 797" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fresponse-time-week.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="30-day response time 797" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fresponse-time-month.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="1-year response time 797" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage">100.00%</a></summary><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="All-time uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fuptime.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="24-hour uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fuptime-day.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="7-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fuptime-week.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="30-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fuptime-month.json"></a><br><a href="https://d33bs.github.io/upptime-curc/history/access-website-public-webpage"><img alt="1-year uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fd33bs%2Fupptime-curc%2FHEAD%2Fapi%2Faccess-website-public-webpage%2Fuptime-year.json"></a></details>
 
 <!--end: status pages-->
+
+This repository uses [Upptime](https://upptime.js.org) to monitor practical CURC user access and key partner endpoints.
+
+Live status page: `https://d33bs.github.io/upptime-curc/`
+
+## Priority checks (top to bottom)
+
+- Alpine login node SSH port (TCP reachability)
+- CURC Open OnDemand HTTPS port (TCP reachability)
+- CURC data transfer node SSH port (TCP reachability)
+- CURC Docs
+- Globus Transfer API endpoint
+- ACCESS Registry endpoint
+- Globus website
+- ACCESS website
+
+## Public webpages
+
+- CURC Docs
+- Globus website
+- ACCESS website
+
+## Technical endpoints
+
+- Alpine login node SSH port (TCP reachability)
+- CURC Open OnDemand HTTPS port (TCP reachability)
+- CURC data transfer node SSH port (TCP reachability)
+- Globus Transfer API endpoint
+- ACCESS Registry endpoint
+
+## How it works
+
+- Checks run on a schedule via GitHub Actions
+- Downtime opens/closes incidents as GitHub issues
+- Historical uptime and response-time data are committed in this repo
+
+## GitHub setup
+
+See [GITHUB_SETUP.md](GITHUB_SETUP.md) for required repository settings and first-run bootstrap steps.
