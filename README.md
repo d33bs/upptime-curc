@@ -19,6 +19,14 @@
 
 <!--end: status pages-->
 
+## Maintenance and service status links
+
+- CURC planned maintenance policy (first Wednesday each month): https://curc.readthedocs.io/en/latest/additional-resources/policies.html
+- CURC status and maintenance announcements: https://curc.statuspage.io/
+- ACCESS outages and planned downtimes: https://support.access-ci.org/outages
+- ACCESS operations/service catalog: https://operations.access-ci.org/
+- Globus support and service help: https://www.globus.org/support/
+
 This repository uses [Upptime](https://upptime.js.org) to monitor practical CURC user access and key partner endpoints.
 
 Live status page: `https://d33bs.github.io/upptime-curc/`
