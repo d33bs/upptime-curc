@@ -17,10 +17,13 @@
 name: Uptime CI
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 * * * *"
   repository_dispatch:
     types: [uptime]
   workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
 jobs:
   release:
     name: Check status
