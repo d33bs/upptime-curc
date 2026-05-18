@@ -6,6 +6,14 @@ sites:
     check: tcp-ping
     url: login.rc.colorado.edu
     port: 22
+    notifications:
+      - type: discord
+        url: $DISCORD_WEBHOOK_ALPINE
+  - name: Alpine CURC Page
+    url: https://www.colorado.edu/rc/alpine
+    notifications:
+      - type: discord
+        url: $DISCORD_WEBHOOK_ALPINE
   - name: CURC Open OnDemand HTTPS (TCP Reachability)
     check: tcp-ping
     url: ondemand.rc.colorado.edu

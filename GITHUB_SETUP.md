@@ -28,7 +28,15 @@ If workflow commits or page deploy fail due to token restrictions, add a PAT:
 
 Workflows already use `${{ secrets.GH_PAT || github.token }}`.
 
-## 4) First run bootstrap
+## 4) Discord webhook secret (Alpine-only notifications)
+
+Add one repository secret used by all Alpine tracking items:
+
+- Repo Settings -> Secrets and variables -> Actions
+- New repository secret: `DISCORD_WEBHOOK_ALPINE`
+- Value: Discord channel webhook URL
+
+## 5) First run bootstrap
 
 After pushing config changes, run this manually once:
 
@@ -42,7 +50,7 @@ Then confirm these workflows succeed:
 - Graphs CI
 - Static Site CI
 
-## 5) Expected schedules
+## 6) Expected schedules
 
 - Uptime CI: hourly (`0 * * * *`)
 - Response Time CI: hourly (`0 * * * *`)
