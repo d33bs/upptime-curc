@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/curc.statuspage.io.ico",
     "slug": "curc-statuspage-alpine-component",
     "status": "down",
-    "uptime": "0.16%",
-    "uptimeDay": "0.16%",
-    "uptimeWeek": "0.16%",
-    "uptimeMonth": "0.16%",
-    "uptimeYear": "0.16%",
+    "uptime": "0.15%",
+    "uptimeDay": "0.15%",
+    "uptimeWeek": "0.15%",
+    "uptimeMonth": "0.15%",
+    "uptimeYear": "0.15%",
     "time": 57,
     "timeDay": 57,
     "timeWeek": 57,
     "timeMonth": 57,
     "timeYear": 57,
     "dailyMinutesDown": {
-      "2026-06-03": 132
+      "2026-06-03": 135
     }
   },
   {
@@ -36,7 +36,7 @@
     "timeMonth": 46,
     "timeYear": 46,
     "dailyMinutesDown": {
-      "2026-06-03": 105
+      "2026-06-03": 108
     }
   },
   {
@@ -152,19 +152,19 @@
     "url": "https://registry.access-ci.org/registry/",
     "icon": "https://icons.duckduckgo.com/ip3/registry.access-ci.org.ico",
     "slug": "access-registry-technical-endpoint",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.84%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 616,
-    "timeDay": 798,
+    "timeDay": 791,
     "timeWeek": 616,
     "timeMonth": 616,
     "timeYear": 616,
     "dailyMinutesDown": {
-      "2026-06-03": 2
+      "2026-06-03": 5
     }
   },
   {
