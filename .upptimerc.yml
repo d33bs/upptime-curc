@@ -8,7 +8,7 @@ sites:
     notifications:
       - type: discord
         url: $DISCORD_WEBHOOK_ALPINE
-  - name: CURC XDMoD Alpine Utilization Threshold
+  - name: 📈 CURC XDMoD Alpine Utilization Threshold
     url: https://raw.githubusercontent.com/d33bs/upptime-curc/HEAD/api/curc-xdmod-alpine-utilization-threshold/status.json
     __dangerous__body_down_if_text_missing: '"status": "UP"'
     notifications:
