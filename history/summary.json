@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/curc.statuspage.io.ico",
     "slug": "curc-statuspage-alpine-component",
     "status": "down",
-    "uptime": "62.55%",
-    "uptimeDay": "62.55%",
-    "uptimeWeek": "62.55%",
-    "uptimeMonth": "62.55%",
-    "uptimeYear": "62.55%",
+    "uptime": "4.20%",
+    "uptimeDay": "4.20%",
+    "uptimeWeek": "4.20%",
+    "uptimeMonth": "4.20%",
+    "uptimeYear": "4.20%",
     "time": 59,
     "timeDay": 59,
     "timeWeek": 59,
     "timeMonth": 59,
     "timeYear": 59,
     "dailyMinutesDown": {
-      "2026-06-03": 0
+      "2026-06-03": 4
     }
   },
   {
