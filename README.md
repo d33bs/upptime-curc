@@ -34,30 +34,19 @@ This repository uses [Upptime](https://upptime.js.org) to monitor practical CURC
 
 Live status page: `https://d33bs.github.io/upptime-curc/`
 
-## Priority checks (top to bottom)
+## Checks
 
-- ⛰️🚪 Alpine login node SSH port (TCP reachability)
-- CURC Open OnDemand HTTPS port (TCP reachability)
-- CURC data transfer node SSH port (TCP reachability)
-- CURC Docs
-- Globus Transfer API endpoint
-- ACCESS Registry endpoint
-- Globus website
-- ACCESS website
-
-## Public webpages
-
-- CURC Docs
-- Globus website
-- ACCESS website
-
-## Technical endpoints
-
-- ⛰️🚪 Alpine login node SSH port (TCP reachability)
-- CURC Open OnDemand HTTPS port (TCP reachability)
-- CURC data transfer node SSH port (TCP reachability)
-- Globus Transfer API endpoint
-- ACCESS Registry endpoint
+- CURC Statuspage Alpine Component
+- CURC XDMoD Alpine Utilization Threshold
+- Alpine Login Node SSH (TCP Reachability)
+- Alpine CURC Page
+- CURC Open OnDemand HTTPS (TCP Reachability)
+- CURC Data Transfer Node SSH (TCP Reachability)
+- CURC Docs (Public Webpage)
+- Globus Transfer API (Technical Endpoint)
+- ACCESS Registry (Technical Endpoint)
+- Globus Website (Public Webpage)
+- ACCESS Website (Public Webpage)
 
 ## How it works
 
