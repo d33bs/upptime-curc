@@ -2,6 +2,12 @@ owner: d33bs
 repo: upptime-curc
 
 sites:
+  - name: CURC Statuspage Alpine Component
+    url: https://curc.statuspage.io/api/v2/summary.json
+    __dangerous__body_down_if_text_missing: '"name":"Alpine","status":"operational"'
+    notifications:
+      - type: discord
+        url: $DISCORD_WEBHOOK_ALPINE
   - name: Alpine Login Node SSH (TCP Reachability)
     check: tcp-ping
     url: login.rc.colorado.edu
