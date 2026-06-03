@@ -35,7 +35,7 @@ Live status page: `https://d33bs.github.io/upptime-curc/`
 
 ## Priority checks (top to bottom)
 
-- ⛰️ Alpine login node SSH port (TCP reachability) 🚪
+- ⛰️🚪 Alpine login node SSH port (TCP reachability)
 - CURC Open OnDemand HTTPS port (TCP reachability)
 - CURC data transfer node SSH port (TCP reachability)
 - CURC Docs
@@ -52,7 +52,7 @@ Live status page: `https://d33bs.github.io/upptime-curc/`
 
 ## Technical endpoints
 
-- ⛰️ Alpine login node SSH port (TCP reachability) 🚪
+- ⛰️🚪 Alpine login node SSH port (TCP reachability)
 - CURC Open OnDemand HTTPS port (TCP reachability)
 - CURC data transfer node SSH port (TCP reachability)
 - Globus Transfer API endpoint
