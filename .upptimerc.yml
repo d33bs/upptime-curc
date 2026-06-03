@@ -10,6 +10,7 @@ sites:
         url: $DISCORD_WEBHOOK_ALPINE
   - name: 📈 CURC XDMoD Alpine Utilization Threshold
     url: https://raw.githubusercontent.com/d33bs/upptime-curc/HEAD/api/curc-xdmod-alpine-utilization-threshold/status.json
+    icon: https://xdmod.rc.colorado.edu/gui/icons/favicon_static.ico
     __dangerous__body_down_if_text_missing: '"status": "UP"'
     notifications:
       - type: discord
