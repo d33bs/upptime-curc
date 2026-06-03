@@ -112,19 +112,19 @@
     "url": "https://registry.access-ci.org/registry/",
     "icon": "https://icons.duckduckgo.com/ip3/registry.access-ci.org.ico",
     "slug": "access-registry-technical-endpoint",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 617,
-    "timeDay": 886,
-    "timeWeek": 618,
+    "timeDay": 849,
+    "timeWeek": 616,
     "timeMonth": 617,
     "timeYear": 617,
     "dailyMinutesDown": {
-      "2026-06-03": 1
+      "2026-06-03": 2
     }
   },
   {
