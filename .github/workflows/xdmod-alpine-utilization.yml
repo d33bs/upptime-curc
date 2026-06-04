@@ -15,10 +15,15 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
+      - name: Install XDMoD intermediate certificate
+        run: |
+          curl -fsSL http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt -o /tmp/SectigoPublicServerAuthenticationCAOVR36.crt
+          openssl x509 -inform DER -in /tmp/SectigoPublicServerAuthenticationCAOVR36.crt -out /tmp/SectigoPublicServerAuthenticationCAOVR36.pem
       - name: Query CURC XDMoD
         run: node .github/scripts/check-xdmod-alpine-utilization.js
         env:
           NODE_OPTIONS: --use-system-ca
+          NODE_EXTRA_CA_CERTS: /tmp/SectigoPublicServerAuthenticationCAOVR36.pem
           XDMOD_ALPINE_UTILIZATION_THRESHOLD: "15"
       - name: Commit status update
         uses: stefanzweifel/git-auto-commit-action@v5
