@@ -1,7 +1,7 @@
 const fs = require("fs");
 const https = require("https");
 
-const threshold = Number(process.env.XDMOD_ALPINE_UTILIZATION_THRESHOLD || "15");
+const threshold = Number(process.env.XDMOD_ALPINE_UTILIZATION_THRESHOLD || "10");
 const outputPath =
   process.env.XDMOD_ALPINE_STATUS_PATH ||
   "api/curc-xdmod-alpine-utilization-threshold/status.json";
