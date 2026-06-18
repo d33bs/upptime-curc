@@ -1,7 +1,7 @@
 url: https://raw.githubusercontent.com/d33bs/upptime-curc/HEAD/api/curc-xdmod-alpine-utilization-threshold/status.json
-status: down
+status: up
 code: 200
-responseTime: 14
-lastUpdated: 2026-06-18T18:55:13.351Z
+responseTime: 98
+lastUpdated: 2026-06-18T19:47:17.169Z
 startTime: 2026-06-03T16:02:14.186Z
 generator: Upptime <https://github.com/upptime/upptime>
