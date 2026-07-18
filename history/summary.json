@@ -8,7 +8,7 @@
     "uptime": "93.05%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "96.61%",
+    "uptimeMonth": "96.63%",
     "uptimeYear": "93.05%",
     "time": 432,
     "timeDay": 225,
@@ -221,7 +221,7 @@
     "uptime": "98.85%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.89%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "98.85%",
     "time": 600,
     "timeDay": 619,
@@ -268,16 +268,16 @@
     "url": "https://access-ci.org",
     "icon": "https://icons.duckduckgo.com/ip3/access-ci.org.ico",
     "slug": "access-website-public-webpage",
-    "status": "up",
+    "status": "down",
     "uptime": "93.38%",
-    "uptimeDay": "93.14%",
-    "uptimeWeek": "88.20%",
+    "uptimeDay": "93.11%",
+    "uptimeWeek": "88.19%",
     "uptimeMonth": "95.11%",
     "uptimeYear": "93.38%",
     "time": 1168,
-    "timeDay": 779,
-    "timeWeek": 905,
-    "timeMonth": 1200,
+    "timeDay": 763,
+    "timeWeek": 901,
+    "timeMonth": 1198,
     "timeYear": 1168,
     "dailyMinutesDown": {
       "2026-07-18": 99,
@@ -312,8 +312,7 @@
       "2026-05-26": 6,
       "2026-05-25": 62,
       "2026-05-24": 174,
-      "2026-05-23": 60,
-      "2026-05-21": 2
+      "2026-05-23": 60
     }
   }
 ]
