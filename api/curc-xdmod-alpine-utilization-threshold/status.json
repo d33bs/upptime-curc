@@ -5,6 +5,6 @@
   "resource": "Alpine",
   "source": "CURC XDMoD public Jobs summary",
   "date": "2026-07-18",
-  "checked_at": "2026-07-18T06:32:51.274Z",
+  "checked_at": "2026-07-18T08:26:56.491Z",
   "query_url": "https://xdmod.rc.colorado.edu/controllers/ui_data/summary3.php?start_date=2026-07-18&end_date=2026-07-18&aggregation_unit=day&timeframe_label=Custom&filters=%7B%22data%22%3A%5B%7B%22dimension_id%22%3A%22resource%22%2C%22value_id%22%3A%223%22%2C%22value_name%22%3A%22Alpine%22%7D%5D%2C%22total%22%3A1%7D&public_user=true"
 }
