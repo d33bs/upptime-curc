@@ -12,8 +12,8 @@
     "uptimeYear": "94.08%",
     "time": 419,
     "timeDay": 224,
-    "timeWeek": 323,
-    "timeMonth": 470,
+    "timeWeek": 324,
+    "timeMonth": 471,
     "timeYear": 419,
     "dailyMinutesDown": {
       "2026-07-02": 780,
@@ -41,15 +41,15 @@
     "icon": "https://xdmod.rc.colorado.edu/gui/icons/favicon_static.ico",
     "slug": "curc-xd-mo-d-alpine-utilization-threshold",
     "status": "up",
-    "uptime": "50.88%",
+    "uptime": "50.92%",
     "uptimeDay": "58.35%",
-    "uptimeWeek": "46.01%",
+    "uptimeWeek": "46.60%",
     "uptimeMonth": "53.15%",
-    "uptimeYear": "50.88%",
+    "uptimeYear": "50.92%",
     "time": 84,
     "timeDay": 108,
-    "timeWeek": 72,
-    "timeMonth": 91,
+    "timeWeek": 73,
+    "timeMonth": 90,
     "timeYear": 84,
     "dailyMinutesDown": {
       "2026-07-26": 600,
@@ -139,7 +139,7 @@
     "uptimeYear": "100.00%",
     "time": 122,
     "timeDay": 125,
-    "timeWeek": 144,
+    "timeWeek": 146,
     "timeMonth": 124,
     "timeYear": 122,
     "dailyMinutesDown": {}
@@ -175,7 +175,7 @@
     "uptimeYear": "99.49%",
     "time": 34,
     "timeDay": 38,
-    "timeWeek": 32,
+    "timeWeek": 33,
     "timeMonth": 35,
     "timeYear": 34,
     "dailyMinutesDown": {
@@ -195,7 +195,7 @@
     "uptimeYear": "100.00%",
     "time": 124,
     "timeDay": 157,
-    "timeWeek": 136,
+    "timeWeek": 137,
     "timeMonth": 157,
     "timeYear": 124,
     "dailyMinutesDown": {}
@@ -213,8 +213,8 @@
     "uptimeYear": "99.95%",
     "time": 270,
     "timeDay": 296,
-    "timeWeek": 309,
-    "timeMonth": 271,
+    "timeWeek": 310,
+    "timeMonth": 272,
     "timeYear": 270,
     "dailyMinutesDown": {
       "2026-06-13": 51
@@ -233,7 +233,7 @@
     "uptimeYear": "98.97%",
     "time": 604,
     "timeDay": 655,
-    "timeWeek": 640,
+    "timeWeek": 641,
     "timeMonth": 611,
     "timeYear": 604,
     "dailyMinutesDown": {
@@ -266,7 +266,7 @@
     "uptimeYear": "100.00%",
     "time": 276,
     "timeDay": 294,
-    "timeWeek": 350,
+    "timeWeek": 351,
     "timeMonth": 280,
     "timeYear": 276,
     "dailyMinutesDown": {}
@@ -276,19 +276,19 @@
     "url": "https://access-ci.org",
     "icon": "https://icons.duckduckgo.com/ip3/access-ci.org.ico",
     "slug": "access-website-public-webpage",
-    "status": "up",
-    "uptime": "92.96%",
-    "uptimeDay": "69.74%",
-    "uptimeWeek": "78.52%",
-    "uptimeMonth": "89.57%",
-    "uptimeYear": "92.96%",
-    "time": 1149,
-    "timeDay": 641,
-    "timeWeek": 968,
-    "timeMonth": 1188,
-    "timeYear": 1149,
+    "status": "down",
+    "uptime": "93.02%",
+    "uptimeDay": "69.69%",
+    "uptimeWeek": "79.07%",
+    "uptimeMonth": "89.56%",
+    "uptimeYear": "93.02%",
+    "time": 1159,
+    "timeDay": 1346,
+    "timeWeek": 1116,
+    "timeMonth": 1223,
+    "timeYear": 1159,
     "dailyMinutesDown": {
-      "2026-07-26": 377,
+      "2026-07-26": 378,
       "2026-07-25": 318,
       "2026-07-24": 254,
       "2026-07-23": 196,
@@ -317,7 +317,7 @@
       "2026-06-10": 297,
       "2026-06-09": 412,
       "2026-06-08": 360,
-      "2026-06-07": 178
+      "2026-06-07": 118
     }
   }
 ]
