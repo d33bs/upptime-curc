@@ -1,7 +1,7 @@
 url: https://curc.statuspage.io/api/v2/summary.json
-status: down
+status: up
 code: 200
-responseTime: 35
-lastUpdated: 2026-08-05T23:02:03.477Z
+responseTime: 172
+lastUpdated: 2026-08-06T02:45:43.347Z
 startTime: 2026-06-03T15:35:08.674Z
 generator: Upptime <https://github.com/upptime/upptime>
